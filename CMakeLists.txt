@@ -21,7 +21,14 @@ endif()
 
 set(SOURCE_FILES ./src/start.cpp)
 
-include_directories(${CMAKE_SOURCE_DIR}/BearLibTerminal_0122/Include/C)
+include_directories(${CMAKE_SOURCE_DIR}/Linux/Include/C)
+include_directories(${CMAKE_SOURCE_DIR}/Windows/Include/C)
+link_directories(${CMAKE_SOURCE_DIR}/Windows/Windows32/)
+link_directories(${CMAKE_SOURCE_DIR}/Linux/Linux32/)
+link_directories(${CMAKE_SOURCE_DIR}/Windows/Windows64/)
+link_directories(${CMAKE_SOURCE_DIR}/Linux/Linux64/)
+
+
 add_executable(snowdevice ${SOURCE_FILES})
 target_link_libraries(snowdevice BearLibTerminal -Wl,-R.)
 if(WIN32)
