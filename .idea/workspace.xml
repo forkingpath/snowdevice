@@ -6,34 +6,61 @@
       <config projectName="snowdevice" targetName="snowdevice" />
     </generated>
   </component>
-  <component name="CMakeSettings" AUTO_RELOAD="true" GENERATION_PASS_SYSTEM_ENVIRONMENT="true">
+  <component name="CMakeSettings" AUTO_RELOAD="true" GENERATION_OPTIONS="-G 'MSYS Makefiles'" GENERATION_PASS_SYSTEM_ENVIRONMENT="true">
     <ADDITIONAL_GENERATION_ENVIRONMENT>
       <envs />
     </ADDITIONAL_GENERATION_ENVIRONMENT>
   </component>
   <component name="ChangeListManager">
     <list default="true" id="411fabce-37ac-4d91-ac1d-76ab6c36bec2" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/BearLibTerminal_0122/Include/C#/BearLibTerminal.cs" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/BearLibTerminal_0122/Include/C/BearLibTerminal.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/BearLibTerminal_0122/Include/Pascal/BearLibTerminal.pas" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/BearLibTerminal_0122/Include/Python/PyBearLibTerminal.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/BearLibTerminal_0122/Include/Ruby/BearLibTerminal.rb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/BearLibTerminal_0122/Media/Aesomatica_16x16_437.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/BearLibTerminal_0122/Media/Background.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/BearLibTerminal_0122/Media/Cheepicus_16x16_437.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/BearLibTerminal_0122/Media/DF-Nordic_16x16_437.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/BearLibTerminal_0122/Media/EasternDragon.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/BearLibTerminal_0122/Media/FiveElements.bmp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/BearLibTerminal_0122/Media/Runic.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/BearLibTerminal_0122/Media/Runic__.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/BearLibTerminal_0122/Media/Tigrex3drunes_16x16_437.PNG" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/BearLibTerminal_0122/Media/Tiles.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/BearLibTerminal_0122/Media/VeraMoBd.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/BearLibTerminal_0122/Media/VeraMoIt.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/BearLibTerminal_0122/Media/VeraMono.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/BearLibTerminal_0122/Media/Zodiac-S.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/BearLibTerminal_0122/Media/fontawesome-codepage.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/BearLibTerminal_0122/Media/fontawesome-webfont.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Linux/Include/C#/BearLibTerminal.cs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Linux/Include/C/BearLibTerminal.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Linux/Include/Pascal/BearLibTerminal.pas" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Linux/Include/Python/PyBearLibTerminal.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Linux/Include/Ruby/BearLibTerminal.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Linux/Linux32/SampleOmni" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Linux/Linux64/SampleOmni" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Linux/Media/Aesomatica_16x16_437.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Linux/Media/Background.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Linux/Media/Cheepicus_16x16_437.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Linux/Media/EasternDragon.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Linux/Media/FiveElements.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Linux/Media/Runic.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Linux/Media/Runic__.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Linux/Media/Tigrex3drunes_16x16_437.PNG" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Linux/Media/Tiles.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Linux/Media/UbuntuMono-R.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Linux/Media/VeraMoBd.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Linux/Media/VeraMoIt.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Linux/Media/VeraMono.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Linux/Media/Zodiac-S.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Linux/Media/fontawesome-codepage.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Linux/Media/fontawesome-webfont.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Windows/Include/C#/BearLibTerminal.cs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Windows/Include/C/BearLibTerminal.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Windows/Include/Pascal/BearLibTerminal.pas" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Windows/Include/Python/PyBearLibTerminal.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Windows/Include/Ruby/BearLibTerminal.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Windows/Media/Aesomatica_16x16_437.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Windows/Media/Background.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Windows/Media/Cheepicus_16x16_437.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Windows/Media/DF-Nordic_16x16_437.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Windows/Media/EasternDragon.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Windows/Media/FiveElements.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Windows/Media/Runic.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Windows/Media/Runic__.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Windows/Media/Tigrex3drunes_16x16_437.PNG" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Windows/Media/Tiles.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Windows/Media/VeraMoBd.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Windows/Media/VeraMoIt.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Windows/Media/VeraMono.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Windows/Media/Zodiac-S.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Windows/Media/fontawesome-codepage.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Windows/Media/fontawesome-webfont.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/snowdevice.vcxproj" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/snowdevice.vcxproj.filters" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/snowdevice.vcxproj.user" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/snowdevice.iml" afterPath="$PROJECT_DIR$/.idea/snowdevice.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CMakeLists.txt" afterPath="$PROJECT_DIR$/CMakeLists.txt" />
@@ -57,11 +84,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="CMakeLists.txt" pinned="false" current-in-tab="true">
+      <file leaf-file-name="CMakeLists.txt" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.5109983">
-              <caret line="27" column="33" selection-start-line="27" selection-start-column="33" selection-end-line="27" selection-end-column="33" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="3" column="9" selection-start-line="3" selection-start-column="9" selection-end-line="3" selection-end-column="9" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.6619469">
+              <caret line="22" column="13" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
               <folding />
             </state>
           </provider>
@@ -89,6 +126,7 @@
       <list>
         <option value="$PROJECT_DIR$/src/start.cpp" />
         <option value="$PROJECT_DIR$/CMakeLists.txt" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -100,7 +138,7 @@
   <component name="ProjectFrameBounds">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
-    <option name="width" value="1924" />
+    <option name="width" value="1936" />
     <option name="height" value="1056" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
@@ -135,15 +173,9 @@
               <option name="myItemId" value="snowdevice" />
               <option name="myItemType" value="com.jetbrains.cidr.projectView.CidrFilesViewHelper$MyProjectTreeStructure$1" />
             </PATH_ELEMENT>
-          </PATH>
-          <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="snowdevice" />
-              <option name="myItemType" value="com.jetbrains.cidr.projectView.CidrFilesViewHelper$MyProjectTreeStructure$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="snowdevice" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+              <option name="myItemId" value="External Libraries" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
@@ -153,28 +185,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="snowdevice" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Windows" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="snowdevice" />
-              <option name="myItemType" value="com.jetbrains.cidr.projectView.CidrFilesViewHelper$MyProjectTreeStructure$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="snowdevice" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Windows" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Windows32" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -202,7 +212,15 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Linux" />
+              <option name="myItemId" value="extern" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="BearLibTerminal" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Windows64" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -216,11 +234,15 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Linux" />
+              <option name="myItemId" value="extern" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Linux64" />
+              <option name="myItemId" value="BearLibTerminal" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Windows32" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -234,11 +256,11 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Linux" />
+              <option name="myItemId" value="extern" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Linux32" />
+              <option name="myItemId" value="BearLibTerminal" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -247,7 +269,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="settings.editor.selected.configurable" value="CPPToolchains" />
+    <property name="settings.editor.selected.configurable" value="CMakeSettings" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
     <property name="js-jscs-nodeInterpreter" value="C:\Program Files\nodejs\node.exe" />
   </component>
@@ -277,7 +299,7 @@
       <envs />
       <method />
     </configuration>
-    <configuration default="false" name="snowdevice" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS="FALSE" PROJECT_NAME="snowdevice" TARGET_NAME="snowdevice" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="snowdevice" RUN_TARGET_NAME="snowdevice">
+    <configuration default="false" name="snowdevice" type="CMakeRunConfiguration" factoryName="Application" WORKING_DIR="file://$PROJECT_DIR$" PASS_PARENT_ENVS="FALSE" PROJECT_NAME="snowdevice" TARGET_NAME="snowdevice" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="snowdevice" RUN_TARGET_NAME="snowdevice">
       <envs />
       <method />
     </configuration>
@@ -309,17 +331,16 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1924" height="1056" extended-state="0" />
-    <editor active="false" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2497349" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24815595" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32936078" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="CMake" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32827735" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32900432" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="CMake" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32683983" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32936078" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32900432" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -329,6 +350,7 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32936078" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -351,25 +373,7 @@
     <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="23" column="71" selection-start-line="23" selection-start-column="71" selection-end-line="23" selection-end-column="71" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/start.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#28#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Windows/Include/C/BearLibTerminal.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.33333334">
-          <caret line="236" column="17" selection-start-line="236" selection-start-column="17" selection-end-line="236" selection-end-column="17" />
           <folding />
         </state>
       </provider>
@@ -386,8 +390,52 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5109983">
-          <caret line="27" column="33" selection-start-line="27" selection-start-column="33" selection-end-line="27" selection-end-column="33" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="23" column="71" selection-start-line="23" selection-start-column="71" selection-end-line="23" selection-end-column="71" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/start.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#28#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/start.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="13" column="1" selection-start-line="13" selection-start-column="1" selection-end-line="13" selection-end-column="1" />
+          <folding>
+            <element signature="e#0#28#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/extern/BearLibTerminal/Include/C/BearLibTerminal.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-7.1503377">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="3" column="9" selection-start-line="3" selection-start-column="9" selection-end-line="3" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.6619469">
+          <caret line="22" column="13" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
           <folding />
         </state>
       </provider>
