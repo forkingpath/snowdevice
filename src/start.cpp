@@ -1,14 +1,17 @@
 #include <BearLibTerminal.h>
-#include <cstdio>
-// Hide the console window
+#include "engine.h"
 
-int main()
-{
-	terminal_open();
-	terminal_print(1, 1, "Hello, world!");
-	terminal_refresh();
-	while (terminal_read() != TK_CLOSE);
-	terminal_close();
-	return 0;
-
+int main() {
+    terminal_open();
+    terminal_set
+      (
+        "input:"
+          "cursor-symbol = 0x1F,"
+          "cursor-blink-rate = 500,"
+          "precise-mouse = false,"
+          "mouse-cursor = true,"
+          "filter=[];"
+      );
+    Engine::getInstance().run();
+    return 0;
 }

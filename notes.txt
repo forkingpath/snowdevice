@@ -1,0 +1,6 @@
+roguelike notes
+
+* crawl thru megacity skyscraper ala dredd? pvp, fighting styles, slots for skills and augments
+* roguelikes depend on augmentation and strategy
+  * DX and system shock both feature biomechanical augmentation as part of their character progression
+  * human vs augmented progression paths?

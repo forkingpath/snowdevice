@@ -6,67 +6,47 @@
       <config projectName="snowdevice" targetName="snowdevice" />
     </generated>
   </component>
-  <component name="CMakeSettings" AUTO_RELOAD="true" GENERATION_OPTIONS="-G 'MSYS Makefiles'" GENERATION_PASS_SYSTEM_ENVIRONMENT="true">
+  <component name="CMakeSettings" AUTO_RELOAD="true" GENERATION_PASS_SYSTEM_ENVIRONMENT="true">
     <ADDITIONAL_GENERATION_ENVIRONMENT>
       <envs />
     </ADDITIONAL_GENERATION_ENVIRONMENT>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="411fabce-37ac-4d91-ac1d-76ab6c36bec2" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Linux/Include/C#/BearLibTerminal.cs" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Linux/Include/C/BearLibTerminal.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Linux/Include/Pascal/BearLibTerminal.pas" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Linux/Include/Python/PyBearLibTerminal.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Linux/Include/Ruby/BearLibTerminal.rb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Linux/Linux32/SampleOmni" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Linux/Linux64/SampleOmni" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Linux/Media/Aesomatica_16x16_437.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Linux/Media/Background.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Linux/Media/Cheepicus_16x16_437.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Linux/Media/EasternDragon.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Linux/Media/FiveElements.bmp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Linux/Media/Runic.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Linux/Media/Runic__.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Linux/Media/Tigrex3drunes_16x16_437.PNG" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Linux/Media/Tiles.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Linux/Media/UbuntuMono-R.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Linux/Media/VeraMoBd.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Linux/Media/VeraMoIt.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Linux/Media/VeraMono.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Linux/Media/Zodiac-S.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Linux/Media/fontawesome-codepage.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Linux/Media/fontawesome-webfont.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Windows/Include/C#/BearLibTerminal.cs" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Windows/Include/C/BearLibTerminal.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Windows/Include/Pascal/BearLibTerminal.pas" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Windows/Include/Python/PyBearLibTerminal.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Windows/Include/Ruby/BearLibTerminal.rb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Windows/Media/Aesomatica_16x16_437.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Windows/Media/Background.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Windows/Media/Cheepicus_16x16_437.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Windows/Media/DF-Nordic_16x16_437.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Windows/Media/EasternDragon.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Windows/Media/FiveElements.bmp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Windows/Media/Runic.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Windows/Media/Runic__.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Windows/Media/Tigrex3drunes_16x16_437.PNG" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Windows/Media/Tiles.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Windows/Media/VeraMoBd.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Windows/Media/VeraMoIt.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Windows/Media/VeraMono.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Windows/Media/Zodiac-S.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Windows/Media/fontawesome-codepage.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Windows/Media/fontawesome-webfont.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/snowdevice.vcxproj" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/snowdevice.vcxproj.filters" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/snowdevice.vcxproj.user" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
+    <list default="true" id="411fabce-37ac-4d91-ac1d-76ab6c36bec2" name="Default" comment="holy shit i can move around">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Output/Windows64/BearLibTerminal.dll" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/codeStyleSettings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/dictionaries/Karl.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extern/PCG-BSPDungeonGen/CMakeLists.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extern/PCG-BSPDungeonGen/LICENSE.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extern/PCG-BSPDungeonGen/include/PCG-BSPDungeonGen/Corridor.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extern/PCG-BSPDungeonGen/include/PCG-BSPDungeonGen/Dungeon.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extern/PCG-BSPDungeonGen/premake4.lua" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extern/PCG-BSPDungeonGen/source/Corridor.cpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extern/PCG-BSPDungeonGen/source/Dungeon.cpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/notes.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/AABB.cpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Inventory.cpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Node.cpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/engine.cpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/include/AABB.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/include/Inventory.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/include/Node.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/include/Vec2.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/include/engine.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/include/input.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/include/player.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/include/position.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/input.cpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/player.cpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/position.cpp" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/snowdevice.iml" afterPath="$PROJECT_DIR$/.idea/snowdevice.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CMakeLists.txt" afterPath="$PROJECT_DIR$/CMakeLists.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/start.cpp" afterPath="$PROJECT_DIR$/src/start.cpp" />
     </list>
     <ignored path="snowdevice.iws" />
     <ignored path=".idea/workspace.xml" />
+    <ignored path="Output/Windows64/snowdevice.exe" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -84,33 +64,89 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="CMakeLists.txt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="3" column="9" selection-start-line="3" selection-start-column="9" selection-end-line="3" selection-end-column="9" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/.gitignore">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.6619469">
-              <caret line="22" column="13" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="start.cpp" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/start.cpp">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="13" column="1" selection-start-line="13" selection-start-column="1" selection-end-line="13" selection-end-column="1" />
+              <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
               <folding>
                 <element signature="e#0#28#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="engine.cpp" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/engine.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.2972973">
+              <caret line="13" column="25" selection-start-line="13" selection-start-column="25" selection-end-line="13" selection-end-column="25" />
+              <folding>
+                <element signature="e#40#68#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="player.cpp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/player.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+              <folding>
+                <element signature="e#41#60#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="position.cpp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/position.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BearLibTerminal.h" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/extern/BearLibTerminal/Include/C/BearLibTerminal.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="308" column="0" selection-start-line="308" selection-start-column="0" selection-end-line="308" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="position.h" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/include/position.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="33" column="0" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="engine.h" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/include/engine.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="29" column="2" selection-start-line="29" selection-start-column="2" selection-end-line="29" selection-end-column="2" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="input.cpp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/input.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+              <folding>
+                <element signature="e#40#59#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -124,9 +160,20 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/start.cpp" />
-        <option value="$PROJECT_DIR$/CMakeLists.txt" />
         <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/CMakeLists.txt" />
+        <option value="$PROJECT_DIR$/src/sd_engine.cpp" />
+        <option value="$PROJECT_DIR$/src/include/sd_engine.h" />
+        <option value="$PROJECT_DIR$/src/position.h" />
+        <option value="$PROJECT_DIR$/src/position.cpp" />
+        <option value="$PROJECT_DIR$/src/include/position.h" />
+        <option value="$PROJECT_DIR$/src/include/input.h" />
+        <option value="$PROJECT_DIR$/src/include/player.h" />
+        <option value="$PROJECT_DIR$/src/player.cpp" />
+        <option value="$PROJECT_DIR$/src/start.cpp" />
+        <option value="$PROJECT_DIR$/src/input.cpp" />
+        <option value="$PROJECT_DIR$/src/include/engine.h" />
+        <option value="$PROJECT_DIR$/src/engine.cpp" />
       </list>
     </option>
   </component>
@@ -177,6 +224,28 @@
               <option name="myItemId" value="External Libraries" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Header Search Paths" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NamedLibraryElementNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="snowdevice" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.CidrFilesViewHelper$MyProjectTreeStructure$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="External Libraries" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Header Search Paths" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NamedLibraryElementNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="include" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -199,6 +268,38 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="snowdevice" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.CidrFilesViewHelper$MyProjectTreeStructure$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="snowdevice" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="include" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="snowdevice" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.CidrFilesViewHelper$MyProjectTreeStructure$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="snowdevice" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="extern" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -269,9 +370,18 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="settings.editor.selected.configurable" value="CMakeSettings" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.appearance" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
     <property name="js-jscs-nodeInterpreter" value="C:\Program Files\nodejs\node.exe" />
+    <property name="ChangesBrowser.SHOW_FLATTEN" value="false" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Karl\ClionProjects\snowdevice\src\include" />
+      <recent name="C:\Users\Karl\ClionProjects\snowdevice\src" />
+      <recent name="C:\Users\Karl\ClionProjects\snowdevice\extern\PCG-BSPDungeonGen\source" />
+      <recent name="C:\Users\Karl\ClionProjects\snowdevice\extern\PCG-BSPDungeonGen\include\PCG-BSPDungeonGen" />
+    </key>
   </component>
   <component name="RunManager" selected="Application.snowdevice">
     <configuration default="true" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" PASS_PARENT_ENVS="FALSE" PROJECT_NAME="snowdevice" TARGET_NAME="snowdevice" CONFIG_NAME="Debug" TEST_MODE="SUITE_TEST">
@@ -328,23 +438,30 @@
       <option name="number" value="Default" />
       <updated>1449784371412</updated>
     </task>
+    <task id="LOCAL-00001" summary="blessed be Ragg">
+      <created>1449849587011</created>
+      <option name="number" value="00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1449849587011</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24815595" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32900432" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32900432" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="CMake" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32683983" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32900432" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32900432" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32900432" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39935064" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -365,11 +482,87 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_CLEANUP_BEFORE_PROJECT_COMMIT" value="true" />
+    <MESSAGE value="blessed be Ragg" />
+    <MESSAGE value="holy shit i can move around" />
+    <option name="LAST_COMMIT_MESSAGE" value="holy shit i can move around" />
+    <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
+    <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
+  </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/src/engine.cpp</url>
+          <line>35</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/src/engine.cpp</url>
+          <line>36</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/src/input.cpp</url>
+          <line>19</line>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/src/input.cpp</url>
+          <line>22</line>
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="11" />
+    </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/start.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="13" column="1" selection-start-line="13" selection-start-column="1" selection-end-line="13" selection-end-column="1" />
+          <folding>
+            <element signature="e#0#28#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="3" column="9" selection-start-line="3" selection-start-column="9" selection-end-line="3" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/start.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="13" column="1" selection-start-line="13" selection-start-column="1" selection-end-line="13" selection-end-column="1" />
+          <folding>
+            <element signature="e#0#28#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -406,37 +599,229 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/start.cpp">
+    <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="13" column="1" selection-start-line="13" selection-start-column="1" selection-end-line="13" selection-end-column="1" />
-          <folding>
-            <element signature="e#0#28#0" expanded="true" />
-          </folding>
+        <state vertical-scroll-proportion="0.48906788">
+          <caret line="25" column="0" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/extern/BearLibTerminal/Include/C/BearLibTerminal.h">
+    <entry file="file://$PROJECT_DIR$/extern/PCG-BSPDungeonGen/LICENSE.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-7.1503377">
+        <state vertical-scroll-proportion="0.20713463">
+          <caret line="9" column="56" selection-start-line="9" selection-start-column="56" selection-end-line="9" selection-end-column="56" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/extern/PCG-BSPDungeonGen/premake4.lua">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.9666283">
+          <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/extern/PCG-BSPDungeonGen/include/PCG-BSPDungeonGen/Corridor.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/extern/PCG-BSPDungeonGen/include/PCG-BSPDungeonGen/Dungeon.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.38513514">
+          <caret line="16" column="9" selection-start-line="16" selection-start-column="9" selection-end-line="16" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Node.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/include/Vec2.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.033783782">
+          <caret line="1" column="18" selection-start-line="1" selection-start-column="18" selection-end-line="1" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/extern/PCG-BSPDungeonGen/source/Dungeon.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-2.8851352">
+          <caret line="14" column="16" selection-start-line="14" selection-start-column="16" selection-end-line="14" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/extern/PCG-BSPDungeonGen/source/Corridor.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.16891892">
+          <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/include/AABB.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="1.0472972">
+          <caret line="31" column="0" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AABB.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="1.2837838">
+          <caret line="38" column="29" selection-start-line="38" selection-start-column="29" selection-end-line="38" selection-end-column="29" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="3" column="9" selection-start-line="3" selection-start-column="9" selection-end-line="3" selection-end-column="9" />
+        <state vertical-scroll-proportion="0.777027">
+          <caret line="23" column="66" selection-start-line="23" selection-start-column="66" selection-end-line="23" selection-end-column="66" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
+    <entry file="file://$PROJECT_DIR$/src/include/Node.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6619469">
-          <caret line="22" column="13" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
+        <state vertical-scroll-proportion="0.33783785">
+          <caret line="13" column="16" selection-start-line="13" selection-start-column="16" selection-end-line="13" selection-end-column="16" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/git/Cataclysm-DDA/src/main.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/include/Inventory.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Inventory.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/git/Cataclysm-DDA/src/player.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/include/input.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.27027026">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/include/player.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.4054054">
+          <caret line="12" column="10" selection-start-line="12" selection-start-column="10" selection-end-line="12" selection-end-column="10" />
+          <folding>
+            <element signature="e#40#62#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/include/position.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="33" column="0" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/include/engine.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="29" column="2" selection-start-line="29" selection-start-column="2" selection-end-line="29" selection-end-column="2" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/extern/BearLibTerminal/Include/C/BearLibTerminal.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="308" column="0" selection-start-line="308" selection-start-column="0" selection-end-line="308" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/player.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+          <folding>
+            <element signature="e#41#60#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/start.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#28#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/input.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+          <folding>
+            <element signature="e#40#59#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/position.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/engine.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.2972973">
+          <caret line="13" column="25" selection-start-line="13" selection-start-column="25" selection-end-line="13" selection-end-column="25" />
+          <folding>
+            <element signature="e#40#68#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
