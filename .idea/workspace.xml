@@ -13,36 +13,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="411fabce-37ac-4d91-ac1d-76ab6c36bec2" name="Default" comment="holy shit i can move around">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Output/Windows64/BearLibTerminal.dll" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/codeStyleSettings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/dictionaries/Karl.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extern/PCG-BSPDungeonGen/CMakeLists.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extern/PCG-BSPDungeonGen/LICENSE.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extern/PCG-BSPDungeonGen/include/PCG-BSPDungeonGen/Corridor.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extern/PCG-BSPDungeonGen/include/PCG-BSPDungeonGen/Dungeon.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extern/PCG-BSPDungeonGen/premake4.lua" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extern/PCG-BSPDungeonGen/source/Corridor.cpp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extern/PCG-BSPDungeonGen/source/Dungeon.cpp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/notes.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/AABB.cpp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Inventory.cpp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Node.cpp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/engine.cpp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/include/AABB.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/include/Inventory.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/include/Node.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/include/Vec2.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/include/engine.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/include/input.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/include/player.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/include/position.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/input.cpp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/player.cpp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/position.cpp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/snowdevice.iml" afterPath="$PROJECT_DIR$/.idea/snowdevice.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CMakeLists.txt" afterPath="$PROJECT_DIR$/CMakeLists.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/start.cpp" afterPath="$PROJECT_DIR$/src/start.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/engine.cpp" afterPath="$PROJECT_DIR$/src/engine.cpp" />
     </list>
     <ignored path="snowdevice.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -79,53 +51,11 @@
       <file leaf-file-name="engine.cpp" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/engine.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.2972973">
+            <state vertical-scroll-proportion="0.3310811">
               <caret line="13" column="25" selection-start-line="13" selection-start-column="25" selection-end-line="13" selection-end-column="25" />
               <folding>
                 <element signature="e#40#68#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="player.cpp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/player.cpp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
-              <folding>
-                <element signature="e#41#60#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="position.cpp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/position.cpp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="BearLibTerminal.h" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/extern/BearLibTerminal/Include/C/BearLibTerminal.h">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="308" column="0" selection-start-line="308" selection-start-column="0" selection-end-line="308" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="position.h" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/include/position.h">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="33" column="0" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -444,7 +374,13 @@
       <option name="project" value="LOCAL" />
       <updated>1449849587011</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="holy shit i can move around">
+      <created>1449998093211</created>
+      <option name="number" value="00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1449998093211</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -493,16 +429,6 @@
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
-        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
-          <url>file://$PROJECT_DIR$/src/engine.cpp</url>
-          <line>35</line>
-          <option name="timeStamp" value="6" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
-          <url>file://$PROJECT_DIR$/src/engine.cpp</url>
-          <line>36</line>
-          <option name="timeStamp" value="7" />
-        </line-breakpoint>
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
           <url>file://$PROJECT_DIR$/src/input.cpp</url>
           <line>19</line>
@@ -753,37 +679,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/include/position.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="33" column="0" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/include/engine.h">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="29" column="2" selection-start-line="29" selection-start-column="2" selection-end-line="29" selection-end-column="2" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/extern/BearLibTerminal/Include/C/BearLibTerminal.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="308" column="0" selection-start-line="308" selection-start-column="0" selection-end-line="308" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/player.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
-          <folding>
-            <element signature="e#41#60#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -807,17 +707,43 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/player.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.24553572">
+          <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+          <folding>
+            <element signature="e#41#60#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/position.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
+        <state vertical-scroll-proportion="0.17857143">
           <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/extern/BearLibTerminal/Include/C/BearLibTerminal.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.3638393">
+          <caret line="308" column="0" selection-start-line="308" selection-start-column="0" selection-end-line="308" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/include/position.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.73660713">
+          <caret line="33" column="0" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/engine.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.2972973">
+        <state vertical-scroll-proportion="0.3310811">
           <caret line="13" column="25" selection-start-line="13" selection-start-column="25" selection-end-line="13" selection-end-column="25" />
           <folding>
             <element signature="e#40#68#0" expanded="true" />

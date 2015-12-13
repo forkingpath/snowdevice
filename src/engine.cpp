@@ -12,7 +12,6 @@ int Engine::run() {
     while (terminal_read() != TK_CLOSE) {
         input::checkForInputAndBlock();
         terminal_clear();
-        printf("position is %d X %d Y\n", mainCharacter.playerPosition.posX(), mainCharacter.playerPosition.posY());
     }
     terminal_close();
     return 0;
