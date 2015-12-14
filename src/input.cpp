@@ -24,6 +24,9 @@ const void input::parseInput(int suppliedKey) {
     const int x = Engine::getInstance().getCurrentPlayerPosition().posX();
     const int y = Engine::getInstance().getCurrentPlayerPosition().posY();
     switch (suppliedKey) {
+        case TK_CLOSE:
+            terminal_close();
+            break;
         case TK_ESCAPE:
             terminal_close();
             break;

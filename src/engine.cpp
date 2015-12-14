@@ -1,12 +1,19 @@
 //
 // Created by Karl on 12/12/2015.
 //
+#include <Level.h>
 #include "BearLibTerminal.h"
 #include "engine.h"
 #include "input.h"
 
 int Engine::run() {
     mainCharacter = Player(10, 10);
+    Level mainLevel("longer_seed", terminal_state(TK_WIDTH), terminal_state(TK_HEIGHT));
+    mainLevel.Generate();
+    terminal_layer(0);
+    Grid levelGrid = mainLevel.GetGrid();
+
+    terminal_layer(1);
     mainCharacter.render();
     terminal_refresh();
     while (terminal_peek() != TK_CLOSE) {
