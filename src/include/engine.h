@@ -23,8 +23,9 @@ public:
 
     void movePlayerBy(int, int);
 
-    const Player getCurrentPlayer();
+    Player getCurrentPlayer();
 
+    Position getCurrentPlayerPosition();
 private:
     Player mainCharacter;
 };

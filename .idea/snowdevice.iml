@@ -20,7 +20,7 @@
       <library name="Header Search Paths">
         <CLASSES>
           <root url="file://$MODULE_DIR$/src/include" />
-          <root url="file://$MODULE_DIR$/extern/BearLibTerminal/Include/C" />
+          <root url="file://$MODULE_DIR$/extern" />
           <root url="file://C:/msys64/mingw64/include" />
           <root url="file://C:/msys64/mingw64/x86_64-w64-mingw32/include" />
           <root url="file://C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/5.2.0/include-fixed" />
@@ -28,7 +28,7 @@
         </CLASSES>
         <SOURCES>
           <root url="file://$MODULE_DIR$/src/include" />
-          <root url="file://$MODULE_DIR$/extern/BearLibTerminal/Include/C" />
+          <root url="file://$MODULE_DIR$/extern" />
           <root url="file://C:/msys64/mingw64/include" />
           <root url="file://C:/msys64/mingw64/x86_64-w64-mingw32/include" />
           <root url="file://C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/5.2.0/include-fixed" />

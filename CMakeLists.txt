@@ -7,10 +7,13 @@ math(EXPR BITNESS "8*${CMAKE_SIZEOF_VOID_P}")
 
 add_executable(snowdevice
         ${CMAKE_SOURCE_DIR}/src/start.cpp
-        src/input.cpp src/include/input.h src/engine.cpp src/include/engine.h src/player.cpp src/include/player.h src/Inventory.cpp src/include/Inventory.h src/position.cpp src/include/position.h)
+        src/input.cpp src/include/input.h src/engine.cpp src/include/engine.h src/player.cpp src/include/player.h src/Inventory.cpp src/include/Inventory.h src/position.cpp src/include/position.h
+        )
 set(CMAKE_EXE_LINKER_FLAGS "${CMAKE_EXE_LINKER_FLAGS} -static -mwindows -m64")
 target_include_directories(snowdevice
         PUBLIC ${CMAKE_SOURCE_DIR}/extern/BearLibTerminal/Include/C
+        PUBLIC ${CMAKE_SOURCE_DIR}/extern/cereal/
+        PUBLIC ${CMAKE_SOURCE_DIR}/extern/
         ${CMAKE_SOURCE_DIR}/src/include
         )
 target_link_libraries(snowdevice

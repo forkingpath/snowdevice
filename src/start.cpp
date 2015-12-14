@@ -11,6 +11,8 @@ int main() {
           "precise-mouse = false,"
           "mouse-cursor = true,"
           "filter=[];"
+          "output:"
+          "vsync = false"
       );
     Engine::getInstance().run();
     return 0;

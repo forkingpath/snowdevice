@@ -4,15 +4,15 @@
 
 #include "position.h"
 
-const int Position::posX() {
+int Position::posX() {
     return x;
 }
 
-const int Position::posY() {
+int Position::posY() {
     return y;
 }
 
-const int Position::posZ() {
+int Position::posZ() {
     return z;
 }
 

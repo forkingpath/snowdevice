@@ -10,7 +10,9 @@ class input {
 public:
     static void checkForInputAndBlock();
 
-    static void parseInput(int suppliedKey);
+    const static void parseInput(int suppliedKey);
+
+    static void checkForInput();
 };
 
 

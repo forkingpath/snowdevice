@@ -1,7 +1,7 @@
 //
 // Created by Karl on 12/12/2015.
 //
-
+#include "cereal.hpp"
 #ifndef SNOWDEVICE_POSITION_H
 #define SNOWDEVICE_POSITION_H
 
@@ -16,17 +16,22 @@ public:
 
     Position(int, int, int);
 
-    const int posX();
+    int posX();
 
-    const int posY();
+    int posY();
 
-    const int posZ();
+    int posZ();
 
     void setX(int);
 
     void setY(int);
 
     void setZ(int);
+
+    template<class Archive>
+    void serialize(Archive &archive) {
+        archive(x, y, z);
+    }
 };
 
 

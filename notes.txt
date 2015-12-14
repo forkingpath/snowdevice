@@ -4,3 +4,8 @@ roguelike notes
 * roguelikes depend on augmentation and strategy
   * DX and system shock both feature biomechanical augmentation as part of their character progression
   * human vs augmented progression paths?
+
+only really works as a progression through an area that features augmentation as part of its core architecture - 
+it works in SS2 because of how prevalent nanotechnology is throughout the ship. so for us, maybe you wake up in
+some research lab and have to fight your way out, becoming some monstrosity at the end. like a focused version
+of Cataclysm-DDA's endgame paths.

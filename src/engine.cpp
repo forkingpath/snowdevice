@@ -9,9 +9,10 @@ int Engine::run() {
     mainCharacter = Player(10, 10);
     mainCharacter.render();
     terminal_refresh();
-    while (terminal_read() != TK_CLOSE) {
-        input::checkForInputAndBlock();
-        terminal_clear();
+    while (terminal_peek() != TK_CLOSE) {
+        //input::checkForInputAndBlock();
+        input::checkForInput();
+        //terminal_refresh();
     }
     terminal_close();
     return 0;
@@ -38,6 +39,10 @@ void Engine::movePlayerBy(int x, int y) {
     terminal_refresh();
 }
 
-const Player Engine::getCurrentPlayer() {
+Player Engine::getCurrentPlayer() {
     return this->mainCharacter;
+}
+
+Position Engine::getCurrentPlayerPosition() {
+    return this->mainCharacter.playerPosition;
 }
