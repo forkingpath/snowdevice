@@ -10,9 +10,7 @@ int Engine::run() {
     mainCharacter.render();
     terminal_refresh();
     while (terminal_peek() != TK_CLOSE) {
-        //input::checkForInputAndBlock();
         input::checkForInput();
-        //terminal_refresh();
     }
     terminal_close();
     return 0;

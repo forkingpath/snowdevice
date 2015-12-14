@@ -26,33 +26,24 @@ const void input::parseInput(int suppliedKey) {
     switch (suppliedKey) {
         case TK_ESCAPE:
             terminal_close();
-            didUpdate = true;
             break;
         case TK_LEFT:
             terminal_clear_area(x, y, 1, 1);
             Engine::getInstance().movePlayerBy(-1, 0);
-            didUpdate = true;
             break;
         case TK_RIGHT:
             terminal_clear_area(x, y, 1, 1);
             Engine::getInstance().movePlayerBy(1, 0);
-            didUpdate = true;
             break;
         case TK_DOWN:
             terminal_clear_area(x, y, 1, 1);
             Engine::getInstance().movePlayerBy(0, 1);
-            didUpdate = true;
             break;
         case TK_UP:
             terminal_clear_area(x, y, 1, 1);
             Engine::getInstance().movePlayerBy(0, -1);
-            didUpdate = true;
             break;
         default:
             break;
-    }
-    if (didUpdate) {
-        didUpdate = false;
-        terminal_refresh();
     }
 }

@@ -3,9 +3,16 @@ roguelike notes
 * crawl thru megacity skyscraper ala dredd? pvp, fighting styles, slots for skills and augments
 * roguelikes depend on augmentation and strategy
   * DX and system shock both feature biomechanical augmentation as part of their character progression
-  * human vs augmented progression paths?
+  * human vs augmented progression paths? ("biological vs technology" fuck you JJ)
 
 only really works as a progression through an area that features augmentation as part of its core architecture - 
 it works in SS2 because of how prevalent nanotechnology is throughout the ship. so for us, maybe you wake up in
 some research lab and have to fight your way out, becoming some monstrosity at the end. like a focused version
 of Cataclysm-DDA's endgame paths.
+
+dungeon-building algorithm goals
+
+* customizable ruleset
+* able to solve for a given kind of floor by creating certain kinds of constraints - eg. executive bathroom must be near exec office
+* also the normal dungeon gen stuff
+* requires room types
