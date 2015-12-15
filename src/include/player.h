@@ -9,6 +9,7 @@
 
 
 struct Player {
+    int playerLayer;
     char *playerGlyph;
 public:
     Player();
@@ -17,6 +18,7 @@ public:
 
     void render();
 
+    int getPlayerLayer();
     Position playerPosition;
     Inventory playerInventory;
 };

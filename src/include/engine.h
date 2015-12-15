@@ -7,7 +7,7 @@
 
 
 #include "player.h"
-
+#include "Level.h"
 class Engine {
 public:
     static Engine &getInstance() {
@@ -26,7 +26,11 @@ public:
     Player getCurrentPlayer();
 
     Position getCurrentPlayerPosition();
+
+    Level *getCurrentLevel();
 private:
+    Grid levelGrid;
+    Level *currentLevel;
     Player mainCharacter;
 };
 

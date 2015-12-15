@@ -14,6 +14,7 @@ int main() {
           "output:"
           "vsync = false"
       );
+    terminal_composition(TK_OFF);
     Engine::getInstance().run();
     return 0;
 }

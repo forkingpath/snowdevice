@@ -52,6 +52,11 @@ public:
 
     Grid GetGrid(void);
 
+    Level *GetLevel(void);
+
+    char Pick(int x, int y);
+
+    char InterpretEnum(unsigned int enumVal);
 private:
     void ClearGrid();
 

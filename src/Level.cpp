@@ -16,7 +16,8 @@
 Level::Level(std::string seed, int width, int height) : mWidth(width), mHeight(height),
                                                         mRootNode(nullptr, AABB(0, 0, width, height)) {
     // init grid
-    mGrid = std::vector<std::vector<unsigned int> >(mHeight, std::vector<unsigned int>(mWidth, TILE_TYPE::Empty));
+    mGrid = std::vector<std::vector<unsigned int> >((size_t) mHeight,
+                                                    std::vector<unsigned int>((size_t) mWidth, TILE_TYPE::Empty));
 
     mSeedString = seed;
     mSeedSeq = std::seed_seq(mSeedString.begin(), mSeedString.end());
@@ -62,11 +63,41 @@ Grid Level::GetGrid(void) {
     return mGrid;
 }
 
+char Level::Pick(int x, int y) {
+    return InterpretEnum(mGrid.at((size_t) y).at((size_t) x));
+}
+
+char Level::InterpretEnum(unsigned int enumVal) {
+    switch (enumVal) {
+        case Level::TILE_TYPE::Floor:
+            return '#';
+        case Level::TILE_TYPE::Corridor:
+            return '=';
+        case Level::TILE_TYPE::Entrance:
+            return '<';
+        case Level::TILE_TYPE::Empty:
+            return ' ';
+        case Level::TILE_TYPE::Door:
+            return '+';
+        case Level::TILE_TYPE::Exit:
+            return '>';
+        case Level::TILE_TYPE::Trap:
+            return '^';
+        case Level::TILE_TYPE::Treasure:
+            return '$';
+        case Level::TILE_TYPE::Monster:
+            return '$';
+        default:
+            break;
+    }
+}
+
 
 // Private Methods
 void Level::ClearGrid() {
     mGrid.clear();
-    mGrid = std::vector<std::vector<unsigned int> >(mHeight, std::vector<unsigned int>(mWidth, TILE_TYPE::Empty));
+    mGrid = std::vector<std::vector<unsigned int> >((size_t) mHeight,
+                                                    std::vector<unsigned int>((size_t) mWidth, TILE_TYPE::Empty));
 }
 
 void Level::SplitSpace(Node<AABB> *node) {
@@ -251,3 +282,6 @@ void Level::PlaceEntranceAndExit() {
 #endif
 
 } // method ends here
+Level *Level::GetLevel(void) {
+    return this;
+}

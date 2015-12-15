@@ -4,23 +4,23 @@
     <content url="file://$MODULE_DIR$">
       <sourceFolder url="file://$MODULE_DIR$/src/Node.cpp" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/src/Level.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/AABB.cpp" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/src/engine.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/Inventory.cpp" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/src/player.cpp" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/src/input.cpp" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/src/start.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/include/engine.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/src/include/Node.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/src/include/position.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/src/include/input.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/src/include/AABB.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/include/player.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/include/Inventory.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/include/Vec2.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/src/include/Corridor.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/src/include/Level.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/src/include/Vec2.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/src/include/Inventory.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/src/include/engine.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/src/include/player.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/src/AABB.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/start.cpp" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/src/position.cpp" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/src/Inventory.cpp" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/src/Corridor.cpp" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/CMakeLists.txt" isTestSource="false" />
     </content>
@@ -44,16 +44,16 @@
           <root url="file://C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/5.2.0/include" />
         </SOURCES>
         <excluded>
+          <root url="file://$MODULE_DIR$/src/include/engine.h" />
           <root url="file://$MODULE_DIR$/src/include/Node.h" />
           <root url="file://$MODULE_DIR$/src/include/position.h" />
           <root url="file://$MODULE_DIR$/src/include/input.h" />
           <root url="file://$MODULE_DIR$/src/include/AABB.h" />
+          <root url="file://$MODULE_DIR$/src/include/player.h" />
+          <root url="file://$MODULE_DIR$/src/include/Inventory.h" />
+          <root url="file://$MODULE_DIR$/src/include/Vec2.h" />
           <root url="file://$MODULE_DIR$/src/include/Corridor.h" />
           <root url="file://$MODULE_DIR$/src/include/Level.h" />
-          <root url="file://$MODULE_DIR$/src/include/Vec2.h" />
-          <root url="file://$MODULE_DIR$/src/include/Inventory.h" />
-          <root url="file://$MODULE_DIR$/src/include/engine.h" />
-          <root url="file://$MODULE_DIR$/src/include/player.h" />
         </excluded>
       </library>
     </orderEntry>
