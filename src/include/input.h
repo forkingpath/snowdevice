@@ -13,6 +13,8 @@ public:
     const static void parseInput(int suppliedKey);
 
     static void checkForInput();
+
+    static void restoreMap(const int x, const int y, int baseLayer, int playerLayer);
 };
 
 

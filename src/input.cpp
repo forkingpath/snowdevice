@@ -20,13 +20,12 @@ void input::checkForInput() {
 }
 
 const void input::parseInput(int suppliedKey) {
-    bool didUpdate = false;
     const int x = Engine::getInstance().getCurrentPlayerPosition().posX();
     const int y = Engine::getInstance().getCurrentPlayerPosition().posY();
-    int baseLayer = 0;
+    bool didUpdate = false;
     int termLayer = terminal_state(TK_LAYER);
+    int baseLayer = 0;
     int playerLayer = Engine::getInstance().getCurrentPlayer().getPlayerLayer();
-    terminal_layer(playerLayer);
     switch (suppliedKey) {
         case TK_CLOSE:
             terminal_close();
@@ -36,33 +35,32 @@ const void input::parseInput(int suppliedKey) {
             break;
         case TK_LEFT:
             terminal_layer(baseLayer);
-            Engine::getInstance().movePlayerBy(-1, 0);
-            terminal_layer(playerLayer);
-            terminal_clear_area(x, y, 1, 1);
+            didUpdate = Engine::getInstance().movePlayerBy(-1, 0);
             break;
         case TK_RIGHT:
             terminal_layer(baseLayer);
-            Engine::getInstance().movePlayerBy(1, 0);
-            terminal_layer(playerLayer);
-            terminal_clear_area(x, y, 1, 1);
+            didUpdate = Engine::getInstance().movePlayerBy(1, 0);
             break;
         case TK_DOWN:
             terminal_layer(baseLayer);
-            Engine::getInstance().movePlayerBy(0, 1);
-            terminal_layer(playerLayer);
-            terminal_clear_area(x, y, 1, 1);
+            didUpdate = Engine::getInstance().movePlayerBy(0, 1);
             break;
         case TK_UP:
             terminal_layer(baseLayer);
-            Engine::getInstance().movePlayerBy(0, -1);
-            terminal_layer(playerLayer);
-            terminal_clear_area(x, y, 1, 1);
+            didUpdate = Engine::getInstance().movePlayerBy(0, -1);
             break;
         default:
             break;
     }
+    if (didUpdate) {
+        restoreMap(x, y, baseLayer, playerLayer);
+    }
+    terminal_refresh();
+}
+
+void input::restoreMap(const int x, const int y, int baseLayer, int playerLayer) {
     terminal_layer(baseLayer);
     terminal_put(x, y, Engine::getInstance().getCurrentLevel()->Pick(x, y));
-    terminal_layer(termLayer);
-    terminal_refresh();
+    terminal_layer(playerLayer);
+    terminal_clear_area(x, y, 1, 1);
 }

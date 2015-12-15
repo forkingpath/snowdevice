@@ -21,7 +21,7 @@ public:
 
     bool canMovePlayerTo(int, int);
 
-    void movePlayerBy(int, int);
+    bool movePlayerBy(int, int);
 
     Player getCurrentPlayer();
 

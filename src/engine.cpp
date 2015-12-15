@@ -7,6 +7,8 @@
 #include "input.h"
 
 int Engine::run() {
+    int playerStartX = 10;
+    int playerStartY = 10;
     mainCharacter = Player(10, 10);
     Level mainLevel("longer_seed", terminal_state(TK_WIDTH), terminal_state(TK_HEIGHT));
     mainLevel.Generate();
@@ -46,6 +48,8 @@ int Engine::run() {
         }
         terminal_refresh();
     }
+    terminal_layer(0);
+    terminal_clear_area(playerStartX, playerStartY, 1, 1);
     terminal_layer(1);
     mainCharacter.render();
     terminal_refresh();
@@ -57,7 +61,12 @@ int Engine::run() {
 }
 
 bool Engine::canMovePlayerTo(int x, int y) {
-    return true;
+    int tile = levelGrid.at((size_t) y).at((size_t) x);
+    return (tile == Level::TILE_TYPE::Corridor ||
+            tile == Level::TILE_TYPE::Floor ||
+            tile == Level::TILE_TYPE::Door ||
+            tile == Level::TILE_TYPE::Entrance ||
+            tile == Level::TILE_TYPE::Exit);
 }
 
 bool Engine::movePlayerTo(int newX, int newY) {
@@ -74,15 +83,21 @@ bool Engine::movePlayerTo(int newX, int newY) {
     }
 }
 
-void Engine::movePlayerBy(int x, int y) {
+bool Engine::movePlayerBy(int x, int y) {
+    int newX = mainCharacter.playerPosition.posX() + x;
+    int newY = mainCharacter.playerPosition.posY() + y;
+    if (!canMovePlayerTo(newX, newY)) {
+        // feedback for pathing
+        return false;
+    }
     int termLayer = terminal_state(TK_LAYER);
     mainCharacter.playerPosition.setX(mainCharacter.playerPosition.posX() + x);
     mainCharacter.playerPosition.setY(mainCharacter.playerPosition.posY() + y);
     terminal_layer(0);
     terminal_clear_area(mainCharacter.playerPosition.posX(), mainCharacter.playerPosition.posY(), 1, 1);
-    terminal_layer(termLayer);
+    terminal_layer(mainCharacter.playerLayer);
     mainCharacter.render();
-    terminal_refresh();
+    return true;
 }
 
 Player Engine::getCurrentPlayer() {
